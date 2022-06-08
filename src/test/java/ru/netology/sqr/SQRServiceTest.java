@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class SQRServiceTest {
     @Test
-    void ShouldSqrCount() {
+    void shouldSqrCount() {
         SQRService service = new SQRService();
         int min = 200;
         int max = 300;
@@ -19,7 +19,7 @@ class SQRServiceTest {
     }
 
     @Test
-    void ShouldSqrCountWideRange() {
+    void shouldSqrCountWideRange() {
         SQRService service = new SQRService();
         int min = 10;
         int max = 3500_00;
